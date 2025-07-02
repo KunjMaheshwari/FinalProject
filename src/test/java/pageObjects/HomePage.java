@@ -8,5 +8,5 @@ package pageObjects;
  */
 
 public class HomePage {
-
+        WebDriver driver;
 }
