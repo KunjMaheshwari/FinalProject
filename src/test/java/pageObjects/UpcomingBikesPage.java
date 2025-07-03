@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.WebDriver;
 
 /*
  * 1. Upcoming new Bikes
@@ -9,5 +10,5 @@ package pageObjects;
  */
 
 public class UpcomingBikesPage {
-
+	WebDriver driver;
 }
