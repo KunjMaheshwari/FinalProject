@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-06T13:21:29 IST" name="Suite" finished-at="2025-07-06T13:21:51 IST" duration-ms="21789">
+    <groups>
+    </groups>
+    <test started-at="2025-07-06T13:21:29 IST" name="Test" finished-at="2025-07-06T13:21:51 IST" duration-ms="21789">
+      <class name="testCases.TC001_ClickNewBikes">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_ClickNewBikes@489115ef]" started-at="2025-07-06T13:21:29 IST" name="setUp" finished-at="2025-07-06T13:21:33 IST" duration-ms="3589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="nav_new_bikes()[pri:0, instance:testCases.TC001_ClickNewBikes@489115ef]" started-at="2025-07-06T13:21:33 IST" name="nav_new_bikes" finished-at="2025-07-06T13:21:36 IST" duration-ms="3185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nav_new_bikes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_ClickNewBikes@489115ef]" started-at="2025-07-06T13:21:36 IST" name="tearDown" finished-at="2025-07-06T13:21:38 IST" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_ClickNewBikes -->
+      <class name="testCases.TC002_UsedCars">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_UsedCars@79079097]" started-at="2025-07-06T13:21:38 IST" name="setUp" finished-at="2025-07-06T13:21:43 IST" duration-ms="4469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="nav_more()[pri:1, instance:testCases.TC002_UsedCars@79079097]" started-at="2025-07-06T13:21:43 IST" name="nav_more" finished-at="2025-07-06T13:21:48 IST" duration-ms="5534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nav_more -->
+        <test-method signature="usedCars_Displayed()[pri:2, instance:testCases.TC002_UsedCars@79079097]" started-at="2025-07-06T13:21:48 IST" name="usedCars_Displayed" finished-at="2025-07-06T13:21:48 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCars_Displayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_UsedCars@79079097]" started-at="2025-07-06T13:21:48 IST" name="tearDown" finished-at="2025-07-06T13:21:51 IST" duration-ms="2787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_UsedCars -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
