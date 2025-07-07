@@ -3,6 +3,8 @@ package pageObjects;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -23,12 +25,16 @@ public class UpcomingBikesPage extends BasePage {
     @FindBy(xpath="//a[text()='NEW BIKES']")
     WebElement NewBikes;
 
-    @FindBy(xpath="//div[@class='gsc_ta_scroll']//ul//li[4]")
+    //@FindBy(css=".tabbing-list.tajax_1")
+    @FindBy(xpath="//*[@class='tabbing-list tajax_1']/li[4]")
     WebElement Upcoming_Bikes;
 
-    @FindBy(xpath="//div[@class='txt-c pt-15 clr']//a[@href='/upcoming-bikes']")
+    @FindBy(xpath="//a[@href='href=upcoming-bikes']")
+    //@FindBy(css = ".lnk-c")
     WebElement All_Upcoming_Bikes;
 
+//    @FindBy(xpath="//*[class='gscr_lslide']")
+    //@FindBy(css=".gscr_lslide")
     @FindBy(xpath="//a[text()='Honda']")
     WebElement Honda_Bikes;
 
@@ -50,12 +56,22 @@ public class UpcomingBikesPage extends BasePage {
     	Upcoming_Bikes.click();
     }
     
-    public void click_All_UpcomingBikes() {
-    	All_Upcoming_Bikes.click();
-    }
+    public void click_All_UpcomingBikes() throws InterruptedException {
+     	//All_Upcoming_Bikes.click();
+    	Thread.sleep(2000);
+        WebElement upcomingTab = driver.findElement(By.xpath("//li[@data-track-label='upcoming-tab']"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", upcomingTab);
+   
+      Thread.sleep(2000);
+      WebElement element = driver.findElement(By.xpath("//a[@title='All Upcoming Bikes']"));
+      ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+   
+    	    }
     
     public void click_Honda() {
-    	Honda_Bikes.click();
+    	
+ 
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", Honda_Bikes);
     }
     
     public void Bike_Models(){
