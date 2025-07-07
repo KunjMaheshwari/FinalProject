@@ -15,7 +15,7 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
-    @FindBy(xpath = "//*[@id=\"headerNewVNavWrap\"]/nav/ul/li[2]/a")
+    @FindBy(xpath = "//*[@id='headerNewVNavWrap']/nav/ul/li[3]/a")
     private WebElement newBike;
 
     @FindBy(xpath = "//ul[@class='h-d-nav fnt-14 pl-0 txt-c b ']//li[5]")
