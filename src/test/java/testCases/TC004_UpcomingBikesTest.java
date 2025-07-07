@@ -6,30 +6,33 @@ import java.util.List;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
+import pageObjects.HomePage;
 import pageObjects.UpcomingBikesPage;
 import testBase.BaseClass;
 import utilities.ExcelUtility;
 
 public class TC004_UpcomingBikesTest extends BaseClass {
+	
+	@Test(priority=0)
+	public void clickNewBikesSection() {
+		HomePage hp=new HomePage(driver);
+		hp.clickNewBike();
+	}
 
-	@Test
-	public void verifyClickAllBikes() {
+	@Test(priority=1)
+	public void verifyClickAllBikes(){
 		UpcomingBikesPage ubp = new UpcomingBikesPage(driver);
 		ubp.clickUpcoming();
 		ubp.clickUpcomingBikes();
 	}
 
-	@Test
-	public void scrollAndClickHonda() {
+	@Test(priority=2)
+	public void scrollAndClickHonda() throws InterruptedException {
 		UpcomingBikesPage ubp = new UpcomingBikesPage(driver);
-
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,800)");
-
 		ubp.clickHonda();
 	}
 
-	@Test
+	@Test(priority=3)
 	public void writeAffordableBikesToExcel() throws IOException {
 		UpcomingBikesPage ubp = new UpcomingBikesPage(driver);
 		List<String> names = ubp.getAffordableBikeNames();

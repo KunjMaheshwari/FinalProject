@@ -1,11 +1,17 @@
 package pageObjects;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /*
  * 1. Upcoming new Bikes
@@ -22,11 +28,14 @@ public class UpcomingBikesPage extends BasePage {
 	}
 
 	// Actions
-	@FindBy(xpath = "//a[text()='NEW BIKES']")
+	@FindBy(xpath = "//div[@class='gsc_ta_scroll']//li[4]")
 	WebElement txtUpcoming;
 
-	@FindBy(xpath = "//a[@class='lnk-c' and @title='All Upcoming Bikes']")
-	WebElement txtAllUpcomingBikes;
+//	@FindBy(linkText="All Upcoming Bikes")
+//	private WebElement txtAllUpcomingBikes;
+	
+	@FindBy(xpath="//a[@title='All Upcoming Bikes']")
+	private WebElement txtAllUpcomingBikes;
 
 	@FindBy(xpath = "//a[text()='Honda']")
 	WebElement txtHonda;
@@ -46,12 +55,28 @@ public class UpcomingBikesPage extends BasePage {
 	}
 
 	public void clickUpcomingBikes() {
-		txtAllUpcomingBikes.click();
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+	    // Wait until the element is visible and clickable
+	    wait.until(ExpectedConditions.elementToBeClickable(txtAllUpcomingBikes));
+
+	    // Scroll into view and click using JavaScript
+	    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", txtAllUpcomingBikes);
+	    ((JavascriptExecutor) driver).executeScript("arguments[0].click();", txtAllUpcomingBikes);
 	}
 
-	public void clickHonda() {
-		txtHonda.click();
+
+	public void clickHonda() throws InterruptedException {
+		Thread.sleep(2000);
+        WebElement hondaLink = txtHonda;
+ 
+        // Scroll the page to bring Honda link into view
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", hondaLink);
+        Thread.sleep(1000); // Brief pause after scrolling
+ 
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", hondaLink);
 	}
+
 
 	public void printBikesName() {
 		for (WebElement bike : listBikeNames) {
