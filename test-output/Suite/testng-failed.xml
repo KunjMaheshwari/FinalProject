@@ -7,9 +7,11 @@
     <classes>
       <class name="testCases.TC004_UpcomingBikesTest">
         <methods>
+          <include name="clickNewBikesSection"/>
           <include name="tearDown"/>
           <include name="scrollAndClickHonda"/>
           <include name="setUp"/>
+          <include name="writeAffordableBikesToExcel"/>
           <include name="verifyClickAllBikes"/>
         </methods>
       </class> <!-- testCases.TC004_UpcomingBikesTest -->

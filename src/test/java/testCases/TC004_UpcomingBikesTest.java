@@ -3,7 +3,6 @@ package testCases;
 import java.io.IOException;
 import java.util.List;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
 import pageObjects.HomePage;

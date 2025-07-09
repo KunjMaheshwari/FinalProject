@@ -6,8 +6,6 @@
 		<parameter name="browser" value="chrome" />
 
 		<classes>
-			<!--  <class name="testCases.TC001_ClickNewBikes" />
-			<class name="testCases.TC002_UsedCars"/> -->
 			<class name="testCases.TC004_UpcomingBikesTest" />
 		</classes>
 	</test> <!-- Test -->
