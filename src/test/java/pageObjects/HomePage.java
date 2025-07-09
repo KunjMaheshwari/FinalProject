@@ -2,11 +2,6 @@ package pageObjects;
 
 import java.time.Duration;
 
-<<<<<<< HEAD
-public class HomePage {
-        WebDriver driver;
-}
-=======
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -20,7 +15,7 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
-    @FindBy(xpath = "//*[@id=\"headerNewVNavWrap\"]/nav/ul/li[2]/a")
+    @FindBy(xpath = "//*[@id='headerNewVNavWrap']/nav/ul/li[3]/a")
     private WebElement newBike;
 
     @FindBy(xpath = "//ul[@class='h-d-nav fnt-14 pl-0 txt-c b ']//li[5]")
@@ -48,4 +43,3 @@ public class HomePage extends BasePage {
         clickUsedCarsLink();
     }
 }
->>>>>>> 38eeab4d824a5767697b92e62d21d6e06da9934a
