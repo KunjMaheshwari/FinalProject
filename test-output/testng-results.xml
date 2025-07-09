@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-09T13:47:09 IST" name="Suite" finished-at="2025-07-09T13:47:47 IST" duration-ms="38782">
+    <groups>
+    </groups>
+    <test started-at="2025-07-09T13:47:09 IST" name="Test" finished-at="2025-07-09T13:47:47 IST" duration-ms="38782">
+      <class name="testCase.TC004_UpcomingBikesTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC004_UpcomingBikesTest@4e08711f]" started-at="2025-07-09T13:47:09 IST" name="setUp" finished-at="2025-07-09T13:47:21 IST" duration-ms="11893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_clicking_AllBikes()[pri:1, instance:testCase.TC004_UpcomingBikesTest@4e08711f]" started-at="2025-07-09T13:47:21 IST" name="verify_clicking_AllBikes" finished-at="2025-07-09T13:47:31 IST" duration-ms="10425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_clicking_AllBikes -->
+        <test-method signature="scrollAndClickHonda()[pri:2, instance:testCase.TC004_UpcomingBikesTest@4e08711f]" started-at="2025-07-09T13:47:31 IST" name="scrollAndClickHonda" finished-at="2025-07-09T13:47:41 IST" duration-ms="9419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollAndClickHonda -->
+        <test-method signature="writeAffordableBikesToExcel()[pri:3, instance:testCase.TC004_UpcomingBikesTest@4e08711f]" started-at="2025-07-09T13:47:41 IST" name="writeAffordableBikesToExcel" finished-at="2025-07-09T13:47:43 IST" duration-ms="2669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeAffordableBikesToExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC004_UpcomingBikesTest@4e08711f]" started-at="2025-07-09T13:47:43 IST" name="tearDown" finished-at="2025-07-09T13:47:47 IST" duration-ms="4210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC004_UpcomingBikesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
