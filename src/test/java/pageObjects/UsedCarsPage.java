@@ -44,44 +44,33 @@ public class UsedCarsPage {
 	
 	@FindBy(xpath="//*[@id='ui-id-16']")
 	WebElement ucp_CityResultOption;
+
+	@FindBy(xpath ="//a[@title='Home']")
+	WebElement ucp_MainPage;
 	
 	//Action Methods
-//	public void hoverMore(){
-//		Actions actions = new Actions(driver);
-//		actions.moveToElement(more_option).perform();
-//	}
-//	public void click_carOption(){
-//		car_option.click();
-//	}
+	/*
+	public void hoverMore(){
+		Actions actions = new Actions(driver);
+		actions.moveToElement(more_option).perform();
+	}
+	public void click_carOption(){
+		car_option.click();
+	}
+*/
 	public void clickCity(){
 		ucp_ChennaiOption.click();
 	}
-	public void list_popularModel(){
+	public void list_popularModel() throws IOException {
 		List<String> carNames = new ArrayList<>();
 		for(int i=0;i<ucp_PopularModelList.size();i++){
 			carNames.add(ucp_PopularModelList.get(i).getText());
 		}
-		try{
-			String filePath = System.getProperty("user.dir") + "/test-output/PopularCarModels.xlsx";
-			ExcelUtility.writeOrUpdateCarDataToExcel(filePath, carNames);
-
-			System.out.println("Excel file written successfully for popular model: " + filePath);
-		}catch(IOException e){
-			e.printStackTrace();
-		}
-
-		//Printing in console for check
-//		for(int i=0;i<ucp_PopularModelList.size();i++){
-//			System.out.println(carNames.get(i));
-//		}
-
+		String filePath = System.getProperty("user.dir") + "/test-output/PopularCarModels.xlsx";
+		ExcelUtility.writeOrUpdateCarDataToExcel(filePath, carNames);
+		System.out.println("Excel file written successfully for popular model: " + filePath);
 	}
-
-	public void enterCity(String city) {
-		ucp_CitySearchBox.sendKeys(city);
-	}
-	
-	public void selectCity() {
-		ucp_CityResultOption.click();
+	public void return_MainPage(){
+		ucp_MainPage.click();
 	}
 }

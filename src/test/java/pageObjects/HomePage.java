@@ -15,13 +15,13 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
-    @FindBy(xpath = "//*[@id=\"headerNewVNavWrap\"]/nav/ul/li[3]/a")
+    @FindBy(xpath = "//*[@id='headerNewVNavWrap']/nav/ul/li[3]/a")
     private WebElement newBike;
 
-    @FindBy(xpath = "//ul[@class='h-d-nav fnt-14 pl-0 txt-c b ']//li[5]")
+    @FindBy(xpath = "//span[@class='c-p icon-down-arrow']")
     private WebElement moreMenu;
 
-    @FindBy(xpath = "//ul[@class='h-d-nav fnt-14 pl-0 txt-c b ']//li[5]/ul/li[1]/a")
+    @FindBy(xpath = "//a[@data-track-label='nav-used-car']")
     private WebElement usedCarsLink;
 
     public void clickNewBike() {
