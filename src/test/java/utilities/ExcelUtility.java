@@ -1,5 +1,7 @@
 package utilities;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
@@ -35,6 +37,7 @@ public class ExcelUtility {
 
         workbook.close();
     }
+    /*
     public static void writeCarDataToExcel(String filePath, List<String> carNames) throws IOException {
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet sheet = workbook.createSheet("Used Car");
@@ -56,5 +59,48 @@ public class ExcelUtility {
 
         workbook.close();
     }
+    */
+    public static void writeOrUpdateCarDataToExcel(String filePath, List<String> carNames) throws IOException {
+        XSSFWorkbook workbook;
+        XSSFSheet sheet;
+
+        File file = new File(filePath);
+        if (file.exists()) {
+            // Read existing workbook
+            try (FileInputStream fis = new FileInputStream(file)) {
+                workbook = new XSSFWorkbook(fis);
+            }
+
+            // Use existing sheet or create one
+            sheet = workbook.getSheet("Used Car");
+            if (sheet == null) {
+                sheet = workbook.createSheet("Used Car");
+            }
+        } else {
+            // Create new workbook and sheet
+            workbook = new XSSFWorkbook();
+            sheet = workbook.createSheet("Used Car");
+
+            // Create header row
+            XSSFRow header = sheet.createRow(0);
+            header.createCell(0).setCellValue("Popular Car Name");
+        }
+
+        // Find last row to start appending data
+        int lastRowNum = sheet.getLastRowNum();
+
+        for (int i = 0; i < carNames.size(); i++) {
+            XSSFRow row = sheet.createRow(lastRowNum + i + 1);
+            row.createCell(0).setCellValue(carNames.get(i));
+        }
+
+        // Write updated workbook back to file
+        try (FileOutputStream fos = new FileOutputStream(filePath)) {
+            workbook.write(fos);
+        }
+
+        workbook.close();
+    }
+
 
 }
