@@ -4,9 +4,7 @@ import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.UsedCarsPage;
 import testBase.BaseClass;
-
 import java.io.IOException;
-import java.util.List;
 
 public class TC005_UsedCarsTest extends BaseClass {
     @Test(priority=0)

@@ -3,10 +3,8 @@ package pageObjects;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.ExcelUtility;
@@ -38,12 +36,6 @@ public class UsedCarsPage {
 //	@FindBy(xpath = "//ul[@class='zw-sr-secLev usedCarMakeModelList popularModels ml-20 mt-10']/li")
 	@FindBy(xpath = "//ul[contains(@class, 'usedCarMakeModelList')]/li/label")
 	List<WebElement> ucp_PopularModelList;
-
-	@FindBy(xpath="//input[@id='gs_input5']")
-	WebElement ucp_CitySearchBox;
-	
-	@FindBy(xpath="//*[@id='ui-id-16']")
-	WebElement ucp_CityResultOption;
 
 	@FindBy(xpath ="//a[@title='Home']")
 	WebElement ucp_MainPage;
