@@ -5,7 +5,10 @@
   	  <parameter name ="os" value="windows"/>
   		  <parameter name ="browser" value="chrome"/>
     <classes>
-      <class name="testCase.TC004_UpcomingBikesTest"/>
+    <class name="testCase.TC001_ClickNewBikes"/>
+    <class name="testCase.TC002_UsedCars"/>
+    <class name="testCase.TC004_UpcomingBikesTest"/>
+    <class name="testCase.TC005_UsedCarsTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

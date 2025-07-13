@@ -1,11 +1,13 @@
 package pageObjects;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utilities.ExcelUtility;
 
 /*
  * 1. Filter the location. 
@@ -22,21 +24,45 @@ public class UsedCarsPage {
 	}
 	
 	//Locators
-	@FindBy(xpath="//input[@id='gs_input5']")
-	WebElement ucp_SearchBox;
-	
-	@FindBy(xpath="//*[@id=\"ui-id-16\"]")
-	WebElement ucp_CityResultOption;
-	
-	@FindBy(xpath="//ul[@class='zw-sr-secLev usedCarMakeModelList popularModels ml-20 mt-10']//li//label")
+
+//	@FindBy(xpath= "//span[@class='c-p icon-down-arrow']")
+//	WebElement more_option;
+//
+//	@FindBy(xpath= "//a[@data-track-label='nav-used-car']")
+//	WebElement car_option;
+	@FindBy(xpath= "//a[@data-url='chennai']")
+	WebElement ucp_ChennaiOption;
+
+//	@FindBy(xpath = "//ul[@class='zw-sr-secLev usedCarMakeModelList popularModels ml-20 mt-10']/li")
+	@FindBy(xpath = "//ul[contains(@class, 'usedCarMakeModelList')]/li/label")
 	List<WebElement> ucp_PopularModelList;
+
+	@FindBy(xpath ="//a[@title='Home']")
+	WebElement ucp_MainPage;
 	
 	//Action Methods
-	public void enterCity(String city) {
-		ucp_SearchBox.sendKeys(city);
+	/*
+	public void hoverMore(){
+		Actions actions = new Actions(driver);
+		actions.moveToElement(more_option).perform();
 	}
-	
-	public void selectCity() {
-		ucp_CityResultOption.click();
+	public void click_carOption(){
+		car_option.click();
+	}
+*/
+	public void clickCity(){
+		ucp_ChennaiOption.click();
+	}
+	public void list_popularModel() throws IOException {
+		List<String> carNames = new ArrayList<>();
+		for(int i=0;i<ucp_PopularModelList.size();i++){
+			carNames.add(ucp_PopularModelList.get(i).getText());
+		}
+		String filePath = System.getProperty("user.dir") + "/test-output/PopularCarModels.xlsx";
+		ExcelUtility.writeCarDataToExcel(filePath, carNames);
+		System.out.println("Excel file written successfully for popular model: " + filePath);
+	}
+	public void return_MainPage(){
+		ucp_MainPage.click();
 	}
 }
