@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-13T12:47:04 IST" name="Suite" finished-at="2025-07-13T12:48:07 IST" duration-ms="63966">
+  <suite started-at="2025-07-13T14:19:35 IST" name="Suite" finished-at="2025-07-13T14:23:32 IST" duration-ms="237255">
     <groups>
     </groups>
-    <test started-at="2025-07-13T12:47:04 IST" name="Test" finished-at="2025-07-13T12:48:07 IST" duration-ms="63966">
+    <test started-at="2025-07-13T14:19:35 IST" name="Test" finished-at="2025-07-13T14:23:32 IST" duration-ms="237255">
       <class name="testCase.TC001_ClickNewBikes">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC001_ClickNewBikes@1c1bbc4e]" started-at="2025-07-13T12:47:04 IST" name="setUp" finished-at="2025-07-13T12:47:08 IST" duration-ms="4649" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC001_ClickNewBikes@7a8c8dcf]" started-at="2025-07-13T14:19:35 IST" name="setUp" finished-at="2025-07-13T14:19:55 IST" duration-ms="19861" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,17 +23,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="nav_new_bikes()[pri:0, instance:testCase.TC001_ClickNewBikes@1c1bbc4e]" started-at="2025-07-13T12:47:08 IST" name="nav_new_bikes" finished-at="2025-07-13T12:47:12 IST" duration-ms="3659" status="PASS">
+        <test-method signature="nav_new_bikes()[pri:0, instance:testCase.TC001_ClickNewBikes@7a8c8dcf]" started-at="2025-07-13T14:19:55 IST" name="nav_new_bikes" finished-at="2025-07-13T14:20:03 IST" duration-ms="8294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nav_new_bikes -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC001_ClickNewBikes@1c1bbc4e]" started-at="2025-07-13T12:47:12 IST" name="tearDown" finished-at="2025-07-13T12:47:14 IST" duration-ms="2409" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC001_ClickNewBikes@7a8c8dcf]" started-at="2025-07-13T14:20:03 IST" name="tearDown" finished-at="2025-07-13T14:20:09 IST" duration-ms="5760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCase.TC001_ClickNewBikes -->
       <class name="testCase.TC002_UsedCars">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC002_UsedCars@24269709]" started-at="2025-07-13T12:47:14 IST" name="setUp" finished-at="2025-07-13T12:47:19 IST" duration-ms="4453" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC002_UsedCars@752325ad]" started-at="2025-07-13T14:20:09 IST" name="setUp" finished-at="2025-07-13T14:20:20 IST" duration-ms="11317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,21 +49,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="nav_more()[pri:1, instance:testCase.TC002_UsedCars@24269709]" started-at="2025-07-13T12:47:19 IST" name="nav_more" finished-at="2025-07-13T12:47:23 IST" duration-ms="3921" status="PASS">
+        <test-method signature="nav_more()[pri:1, instance:testCase.TC002_UsedCars@752325ad]" started-at="2025-07-13T14:20:20 IST" name="nav_more" finished-at="2025-07-13T14:20:31 IST" duration-ms="10789" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nav_more -->
-        <test-method signature="usedCars_Displayed()[pri:2, instance:testCase.TC002_UsedCars@24269709]" started-at="2025-07-13T12:47:23 IST" name="usedCars_Displayed" finished-at="2025-07-13T12:47:23 IST" duration-ms="91" status="PASS">
+        <test-method signature="usedCars_Displayed()[pri:2, instance:testCase.TC002_UsedCars@752325ad]" started-at="2025-07-13T14:20:31 IST" name="usedCars_Displayed" finished-at="2025-07-13T14:20:31 IST" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usedCars_Displayed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC002_UsedCars@24269709]" started-at="2025-07-13T12:47:23 IST" name="tearDown" finished-at="2025-07-13T12:47:25 IST" duration-ms="2535" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC002_UsedCars@752325ad]" started-at="2025-07-13T14:20:31 IST" name="tearDown" finished-at="2025-07-13T14:20:39 IST" duration-ms="7100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCase.TC002_UsedCars -->
       <class name="testCase.TC004_UpcomingBikesTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC004_UpcomingBikesTest@2aceadd4]" started-at="2025-07-13T12:47:25 IST" name="setUp" finished-at="2025-07-13T12:47:30 IST" duration-ms="4557" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC004_UpcomingBikesTest@b3ca52e]" started-at="2025-07-13T14:21:49 IST" name="setUp" finished-at="2025-07-13T14:22:04 IST" duration-ms="15127" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,25 +79,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_clicking_AllBikes()[pri:1, instance:testCase.TC004_UpcomingBikesTest@2aceadd4]" started-at="2025-07-13T12:47:30 IST" name="verify_clicking_AllBikes" finished-at="2025-07-13T12:47:41 IST" duration-ms="11232" status="PASS">
+        <test-method signature="verify_clicking_AllBikes()[pri:1, instance:testCase.TC004_UpcomingBikesTest@b3ca52e]" started-at="2025-07-13T14:22:04 IST" name="verify_clicking_AllBikes" finished-at="2025-07-13T14:22:23 IST" duration-ms="18857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_clicking_AllBikes -->
-        <test-method signature="scrollAndClickHonda()[pri:2, instance:testCase.TC004_UpcomingBikesTest@2aceadd4]" started-at="2025-07-13T12:47:41 IST" name="scrollAndClickHonda" finished-at="2025-07-13T12:47:50 IST" duration-ms="9394" status="PASS">
+        <test-method signature="scrollAndClickHonda()[pri:2, instance:testCase.TC004_UpcomingBikesTest@b3ca52e]" started-at="2025-07-13T14:22:23 IST" name="scrollAndClickHonda" finished-at="2025-07-13T14:22:33 IST" duration-ms="10320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollAndClickHonda -->
-        <test-method signature="writeAffordableBikesToExcel()[pri:3, instance:testCase.TC004_UpcomingBikesTest@2aceadd4]" started-at="2025-07-13T12:47:50 IST" name="writeAffordableBikesToExcel" finished-at="2025-07-13T12:47:52 IST" duration-ms="1153" status="PASS">
+        <test-method signature="writeAffordableBikesToExcel()[pri:3, instance:testCase.TC004_UpcomingBikesTest@b3ca52e]" started-at="2025-07-13T14:22:33 IST" name="writeAffordableBikesToExcel" finished-at="2025-07-13T14:22:36 IST" duration-ms="2685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeAffordableBikesToExcel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC004_UpcomingBikesTest@2aceadd4]" started-at="2025-07-13T12:47:52 IST" name="tearDown" finished-at="2025-07-13T12:47:55 IST" duration-ms="3523" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC004_UpcomingBikesTest@b3ca52e]" started-at="2025-07-13T14:22:36 IST" name="tearDown" finished-at="2025-07-13T14:22:45 IST" duration-ms="8874" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCase.TC004_UpcomingBikesTest -->
-      <class name="testCase.TC005_UsedCarsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC005_UsedCarsTest@2a5c8d3f]" started-at="2025-07-13T12:47:55 IST" name="setUp" finished-at="2025-07-13T12:48:00 IST" duration-ms="4382" status="PASS">
+      <class name="testCase.TC003_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC003_Login@279fedbd]" started-at="2025-07-13T14:20:39 IST" name="setUp" finished-at="2025-07-13T14:20:49 IST" duration-ms="10661" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,23 +113,77 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickUsedCar()[pri:0, instance:testCase.TC005_UsedCarsTest@2a5c8d3f]" started-at="2025-07-13T12:48:00 IST" name="clickUsedCar" finished-at="2025-07-13T12:48:04 IST" duration-ms="4451" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC003_Login@279fedbd]" started-at="2025-07-13T14:20:55 IST" name="loginTest" data-provider="dp" finished-at="2025-07-13T14:21:18 IST" duration-ms="23304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ujjwal.bodkhe@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC003_Login@279fedbd]" started-at="2025-07-13T14:21:18 IST" name="loginTest" data-provider="dp" finished-at="2025-07-13T14:21:38 IST" duration-ms="19837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fnsdsia34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC003_Login@279fedbd]" started-at="2025-07-13T14:21:38 IST" name="tearDown" finished-at="2025-07-13T14:21:49 IST" duration-ms="10900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC003_Login -->
+      <class name="testCase.TC005_UsedCarsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCase.TC005_UsedCarsTest@710f4dc7]" started-at="2025-07-13T14:22:45 IST" name="setUp" finished-at="2025-07-13T14:23:00 IST" duration-ms="14812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickUsedCar()[pri:0, instance:testCase.TC005_UsedCarsTest@710f4dc7]" started-at="2025-07-13T14:23:00 IST" name="clickUsedCar" finished-at="2025-07-13T14:23:09 IST" duration-ms="9044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickUsedCar -->
-        <test-method signature="verifyClickCity()[pri:0, instance:testCase.TC005_UsedCarsTest@2a5c8d3f]" started-at="2025-07-13T12:48:04 IST" name="verifyClickCity" finished-at="2025-07-13T12:48:04 IST" depends-on-methods="testCase.TC005_UsedCarsTest.clickUsedCar" duration-ms="206" status="PASS">
+        <test-method signature="verifyClickCity()[pri:0, instance:testCase.TC005_UsedCarsTest@710f4dc7]" started-at="2025-07-13T14:23:09 IST" name="verifyClickCity" finished-at="2025-07-13T14:23:10 IST" depends-on-methods="testCase.TC005_UsedCarsTest.clickUsedCar" duration-ms="806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClickCity -->
-        <test-method signature="getPopularModels()[pri:0, instance:testCase.TC005_UsedCarsTest@2a5c8d3f]" started-at="2025-07-13T12:48:04 IST" name="getPopularModels" finished-at="2025-07-13T12:48:05 IST" depends-on-methods="testCase.TC005_UsedCarsTest.verifyClickCity" duration-ms="402" status="PASS">
+        <test-method signature="getPopularModels()[pri:0, instance:testCase.TC005_UsedCarsTest@710f4dc7]" started-at="2025-07-13T14:23:10 IST" name="getPopularModels" finished-at="2025-07-13T14:23:11 IST" depends-on-methods="testCase.TC005_UsedCarsTest.verifyClickCity" duration-ms="1213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPopularModels -->
-        <test-method signature="return_ZigWheel()[pri:0, instance:testCase.TC005_UsedCarsTest@2a5c8d3f]" started-at="2025-07-13T12:48:05 IST" name="return_ZigWheel" finished-at="2025-07-13T12:48:05 IST" depends-on-methods="testCase.TC005_UsedCarsTest.getPopularModels" duration-ms="601" status="PASS">
+        <test-method signature="return_ZigWheel()[pri:0, instance:testCase.TC005_UsedCarsTest@710f4dc7]" started-at="2025-07-13T14:23:11 IST" name="return_ZigWheel" finished-at="2025-07-13T14:23:21 IST" depends-on-methods="testCase.TC005_UsedCarsTest.getPopularModels" duration-ms="10146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- return_ZigWheel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC005_UsedCarsTest@2a5c8d3f]" started-at="2025-07-13T12:48:05 IST" name="tearDown" finished-at="2025-07-13T12:48:07 IST" duration-ms="2266" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC005_UsedCarsTest@710f4dc7]" started-at="2025-07-13T14:23:21 IST" name="tearDown" finished-at="2025-07-13T14:23:32 IST" duration-ms="11044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
- 
+
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
@@ -115,7 +115,7 @@ public class BaseClass {
 		//driver.get("https://www.zigwheels.com/");
 		driver.manage().window().maximize();
 	}
- 
+	
 	@AfterClass
 	public void tearDown() {
 		driver.quit();

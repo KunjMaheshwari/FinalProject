@@ -15,6 +15,22 @@
           <include name="getPopularModels"/>
         </methods>
       </class> <!-- testCase.TC005_UsedCarsTest -->
+      <class name="testCase.TC003_Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest" invocation-numbers="1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCase.TC003_Login -->
+      <class name="testCase.TC004_UpcomingBikesTest">
+        <methods>
+          <include name="verify_clicking_AllBikes"/>
+          <include name="tearDown"/>
+          <include name="writeAffordableBikesToExcel"/>
+          <include name="setUp"/>
+          <include name="scrollAndClickHonda"/>
+        </methods>
+      </class> <!-- testCase.TC004_UpcomingBikesTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
