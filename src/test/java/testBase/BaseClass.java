@@ -94,7 +94,6 @@ public class BaseClass {
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get(p.getProperty("appURL"));
-        //driver.get("https://www.zigwheels.com/");
         driver.manage().window().maximize();
     }
     @AfterClass

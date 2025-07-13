@@ -37,29 +37,6 @@ public class ExcelUtility {
 
         workbook.close();
     }
-    /*
-    public static void writeCarDataToExcel(String filePath, List<String> carNames) throws IOException {
-        XSSFWorkbook workbook = new XSSFWorkbook();
-        XSSFSheet sheet = workbook.createSheet("Used Car");
-
-        // Create header row
-        XSSFRow header = sheet.createRow(0);
-        header.createCell(0).setCellValue("Popular Car Name");
-
-        // Fill data rows
-        for (int i = 0; i < carNames.size(); i++) {
-            XSSFRow row = sheet.createRow(i + 1);
-            row.createCell(0).setCellValue(carNames.get(i));
-        }
-
-        // Write to file
-        try (FileOutputStream fos = new FileOutputStream(filePath)) {
-            workbook.write(fos);
-        }
-
-        workbook.close();
-    }
-    */
     public static void writeOrUpdateCarDataToExcel(String filePath, List<String> carNames) throws IOException {
         XSSFWorkbook workbook;
         XSSFSheet sheet;

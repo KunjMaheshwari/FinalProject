@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.ExcelUtility;
-
 /*
  * 1. Filter the location. 
  * 2. Extract the popular car models and store in a list.
@@ -16,7 +15,6 @@ import utilities.ExcelUtility;
 
 public class UsedCarsPage {
 	WebDriver driver;
-	
 	//Constructor
 	public UsedCarsPage(WebDriver driver) {
 		this.driver = driver;
@@ -24,16 +22,10 @@ public class UsedCarsPage {
 	}
 	
 	//Locators
-
-//	@FindBy(xpath= "//span[@class='c-p icon-down-arrow']")
-//	WebElement more_option;
-//
-//	@FindBy(xpath= "//a[@data-track-label='nav-used-car']")
-//	WebElement car_option;
 	@FindBy(xpath= "//a[@data-url='chennai']")
 	WebElement ucp_ChennaiOption;
 
-//	@FindBy(xpath = "//ul[@class='zw-sr-secLev usedCarMakeModelList popularModels ml-20 mt-10']/li")
+	//@FindBy(xpath = "//ul[@class='zw-sr-secLev usedCarMakeModelList popularModels ml-20 mt-10']/li")
 	@FindBy(xpath = "//ul[contains(@class, 'usedCarMakeModelList')]/li/label")
 	List<WebElement> ucp_PopularModelList;
 
@@ -41,15 +33,6 @@ public class UsedCarsPage {
 	WebElement ucp_MainPage;
 	
 	//Action Methods
-	/*
-	public void hoverMore(){
-		Actions actions = new Actions(driver);
-		actions.moveToElement(more_option).perform();
-	}
-	public void click_carOption(){
-		car_option.click();
-	}
-*/
 	public void clickCity(){
 		ucp_ChennaiOption.click();
 	}
