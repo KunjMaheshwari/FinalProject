@@ -40,7 +40,7 @@ public class LoginPage extends BasePage{
 	
 	public void setPassword(String Password) {
 		Actions action = new Actions(driver);
-		email.sendKeys(Password);
+		password.sendKeys(Password);
 		action.keyDown(Keys.ENTER).keyUp(Keys.ENTER).build().perform();
 	}
 	
