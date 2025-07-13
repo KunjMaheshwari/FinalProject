@@ -5,13 +5,16 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCase.TC004_UpcomingBikesTest">
+      <class name="testCase.TC005_UsedCarsTest">
         <methods>
           <include name="tearDown"/>
+          <include name="clickUsedCar"/>
           <include name="setUp"/>
-          <include name="scrollAndClickHonda"/>
+          <include name="return_ZigWheel"/>
+          <include name="verifyClickCity"/>
+          <include name="getPopularModels"/>
         </methods>
-      </class> <!-- testCase.TC004_UpcomingBikesTest -->
+      </class> <!-- testCase.TC005_UsedCarsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
