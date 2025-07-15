@@ -8,10 +8,6 @@
 		<parameter name="os" value="windows" />
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<!--  <class name="testCase.TC001_ClickNewBikes" />
-			<class name="testCase.TC003_Login" />
-			<class name="testCase.TC004_UpcomingBikesTest" />
-			<class name="testCase.TC005_UsedCarsTest" /> -->
 			<class name="testCase.TestCase_Final"/>
 
 		</classes>
