@@ -24,8 +24,6 @@ public class TestCase_Final extends BaseClass {
     @Test(priority=0)
     public void nav_new_bikes()
     {
-        //logger.info("Starting TC001_ClickNewBikes");
-        //logger.debug("This is a debug log message");
 
         try
         {
@@ -34,12 +32,7 @@ public class TestCase_Final extends BaseClass {
         }
         catch (Exception e)
         {
-            //logger.error("Test failed: " + e.getMessage());
             Assert.fail("Test failed: " + e.getMessage());
-        }
-        finally
-        {
-            //logger.info("Finished TC001_ClickNewBikes");
         }
     }
 
@@ -136,7 +129,7 @@ public class TestCase_Final extends BaseClass {
 
 
         }catch(Exception e) {
-            System.out.println("Email is correct.");
+           // System.out.println("Email is correct.");
         }
     }
 
@@ -156,7 +149,7 @@ public class TestCase_Final extends BaseClass {
             ScreenShot.takeElementScreenshot(driver, System.getProperty("user.dir")+"/src/test/resources/screenshot"+screenShotCounter+".png");
             screenShotCounter++;
         }catch(Exception e) {
-            System.out.println("Password is correct.");
+           // System.out.println("Password is correct.");
         }
     }
 
