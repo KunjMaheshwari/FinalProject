@@ -25,16 +25,13 @@ public class UpcomingBikesPage extends BasePage {
     @FindBy(xpath="//a[text()='NEW BIKES']")
     WebElement NewBikes;
 
-    //@FindBy(css=".tabbing-list.tajax_1")
     @FindBy(xpath="//*[@class='tabbing-list tajax_1']/li[4]")
     WebElement Upcoming_Bikes;
 
     @FindBy(xpath="//a[@href='href=upcoming-bikes']")
-    //@FindBy(css = ".lnk-c")
+
     WebElement All_Upcoming_Bikes;
 
-//    @FindBy(xpath="//*[class='gscr_lslide']")
-    //@FindBy(css=".gscr_lslide")
     @FindBy(xpath="//a[text()='Honda']")
     WebElement Honda_Bikes;
 

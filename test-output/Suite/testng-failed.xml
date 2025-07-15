@@ -5,31 +5,6 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCase.TC002_UsedCars">
-        <methods>
-          <include name="tearDown"/>
-          <include name="nav_more"/>
-          <include name="usedCars_Displayed"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testCase.TC002_UsedCars -->
-      <class name="testCase.TC001_ClickNewBikes">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="nav_new_bikes"/>
-        </methods>
-      </class> <!-- testCase.TC001_ClickNewBikes -->
-      <class name="testCase.TC005_UsedCarsTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="clickUsedCar"/>
-          <include name="setUp"/>
-          <include name="return_ZigWheel"/>
-          <include name="verifyClickCity"/>
-          <include name="getPopularModels"/>
-        </methods>
-      </class> <!-- testCase.TC005_UsedCarsTest -->
       <class name="testCase.TC003_Login">
         <methods>
           <include name="tearDown"/>
@@ -37,15 +12,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- testCase.TC003_Login -->
-      <class name="testCase.TC004_UpcomingBikesTest">
-        <methods>
-          <include name="verify_clicking_AllBikes"/>
-          <include name="tearDown"/>
-          <include name="writeAffordableBikesToExcel"/>
-          <include name="setUp"/>
-          <include name="scrollAndClickHonda"/>
-        </methods>
-      </class> <!-- testCase.TC004_UpcomingBikesTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
