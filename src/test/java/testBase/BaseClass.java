@@ -115,8 +115,8 @@ public class BaseClass {
 		//driver.get("https://www.zigwheels.com/");
 		driver.manage().window().maximize();
 	}
-	
 	@AfterClass
+	
 	public void tearDown() {
 		driver.quit();
 	}

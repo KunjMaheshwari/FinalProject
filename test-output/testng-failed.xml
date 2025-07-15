@@ -5,6 +5,21 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="testCase.TC002_UsedCars">
+        <methods>
+          <include name="tearDown"/>
+          <include name="nav_more"/>
+          <include name="usedCars_Displayed"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCase.TC002_UsedCars -->
+      <class name="testCase.TC001_ClickNewBikes">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="nav_new_bikes"/>
+        </methods>
+      </class> <!-- testCase.TC001_ClickNewBikes -->
       <class name="testCase.TC005_UsedCarsTest">
         <methods>
           <include name="tearDown"/>
@@ -18,7 +33,7 @@
       <class name="testCase.TC003_Login">
         <methods>
           <include name="tearDown"/>
-          <include name="loginTest" invocation-numbers="1"/>
+          <include name="loginTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testCase.TC003_Login -->
