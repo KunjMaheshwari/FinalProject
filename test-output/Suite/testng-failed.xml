@@ -8,14 +8,21 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCase.TC004_UpcomingBikesTest">
+      <class name="testCase.TestCase_Final">
         <methods>
+          <include name="nav_new_bikes"/>
           <include name="verify_clicking_AllBikes"/>
           <include name="tearDown"/>
+          <include name="getPopularModels"/>
+          <include name="loginTest"/>
+          <include name="writeAffordableBikesToExcel"/>
+          <include name="clickUsedCar"/>
+          <include name="verifyClickCity"/>
           <include name="setUp"/>
           <include name="scrollAndClickHonda"/>
+          <include name="return_ZigWheel"/>
         </methods>
-      </class> <!-- testCase.TC004_UpcomingBikesTest -->
+      </class> <!-- testCase.TestCase_Final -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
