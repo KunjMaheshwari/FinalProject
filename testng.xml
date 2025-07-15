@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5"  name="Test">
-  	  <parameter name ="os" value="windows"/>
-  		  <parameter name ="browser" value="chrome"/>
-    <classes>
-    <class name="testCase.TC001_ClickNewBikes"/>
-    <class name="testCase.TC003_Login"/>
-    <class name="testCase.TC004_UpcomingBikesTest"/>
-    <class name="testCase.TC005_UsedCarsTest"/>
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<parameter name="os" value="windows" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testCase.TC001_ClickNewBikes" />
+			<class name="testCase.TC003_Login" />
+			<class name="testCase.TC004_UpcomingBikesTest" />
+			<class name="testCase.TC005_UsedCarsTest" />
 
-    </classes>
-  </test> <!-- Test -->
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
