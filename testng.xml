@@ -9,7 +9,6 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="testCase.TestCase_Final"/>
-
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

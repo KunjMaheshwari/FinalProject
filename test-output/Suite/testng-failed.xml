@@ -10,16 +10,11 @@
     <classes>
       <class name="testCase.TestCase_Final">
         <methods>
-          <include name="nav_new_bikes"/>
-          <include name="verify_clicking_AllBikes"/>
           <include name="tearDown"/>
           <include name="getPopularModels"/>
-          <include name="loginTest"/>
-          <include name="writeAffordableBikesToExcel"/>
           <include name="clickUsedCar"/>
           <include name="verifyClickCity"/>
           <include name="setUp"/>
-          <include name="scrollAndClickHonda"/>
           <include name="return_ZigWheel"/>
         </methods>
       </class> <!-- testCase.TestCase_Final -->
