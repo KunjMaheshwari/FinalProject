@@ -60,22 +60,21 @@ public class BaseClass {
 			switch (br.toLowerCase()) {
 			case "chrome":
 				ChromeOptions Roptions = new ChromeOptions();
-				Roptions.addArguments("--disable-blink-features=AutomationControlled"); // Disable automation detection
-				Roptions.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" }); // Remove
-																											// automation
-																											// flag
-				Roptions.setExperimentalOption("useAutomationExtension", false); // Disable automation extension
+				Roptions.addArguments("--disable-blink-features=AutomationControlled");
+				Roptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+				Roptions.setExperimentalOption("useAutomationExtension", false);
+				Roptions.addArguments("--disable-notifications"); // Disable notifications
 				capabilities.setBrowserName("chrome");
 				Roptions.merge(capabilities);
 				driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), Roptions);
 				break;
+
 			case "edge":
 				EdgeOptions Eoptions = new EdgeOptions();
-				Eoptions.addArguments("--disable-blink-features=AutomationControlled"); // Disable automation detection
-				Eoptions.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" }); // Remove
-																											// automation
-																											// flag
-				Eoptions.setExperimentalOption("useAutomationExtension", false); // Disable automation extension
+				Eoptions.addArguments("--disable-blink-features=AutomationControlled");
+				Eoptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+				Eoptions.setExperimentalOption("useAutomationExtension", false);
+				Eoptions.addArguments("--disable-notifications"); // Disable notifications
 				capabilities.setBrowserName("edge");
 				Eoptions.merge(capabilities);
 				driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), Eoptions);
@@ -98,6 +97,7 @@ public class BaseClass {
 				options.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" }); // Remove
 																										// automation
 																										// flag
+				options.addArguments("--disable-notifications");
 				options.setExperimentalOption("useAutomationExtension", false); // Disable automation extension
 				driver = new ChromeDriver(options);
 				break;
@@ -107,6 +107,7 @@ public class BaseClass {
 				Eoptions.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" }); // Remove
 																											// automation
 																											// flag
+				Eoptions.addArguments("--disable-notifications");
 				Eoptions.setExperimentalOption("useAutomationExtension", false); // Disable automation extension
 				driver = new EdgeDriver(Eoptions);
 				break;

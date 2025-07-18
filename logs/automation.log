@@ -1,227 +1,32 @@
-2025-07-17 10:45:44 INFO  TestCase_Final:27 - ******* Starting the Test Cases  ***********
-2025-07-17 10:45:44 INFO  TestCase_Final:29 - Test Case 1 started.
-2025-07-17 10:45:45 INFO  TestCase_Final:33 - Test Case 1 completed.
-2025-07-17 10:55:40 INFO  TestCase_Final:27 - ******* Starting the Test Cases  ***********
-2025-07-17 10:55:40 INFO  TestCase_Final:28 - Test Case 1 started.
-2025-07-17 10:55:40 INFO  TestCase_Final:29 - Clicking on the New Bikes Section.
-2025-07-17 10:55:43 INFO  TestCase_Final:34 - Test Case 1 completed.
-2025-07-17 10:55:43 INFO  TestCase_Final:40 - Test Case 2 started.
-2025-07-17 10:55:51 INFO  TestCase_Final:49 - Test Case 2 completed.
-2025-07-17 10:55:51 INFO  TestCase_Final:55 - Test Case 3 started.
-2025-07-17 10:56:01 INFO  TestCase_Final:65 - Test Case 3 completed.
-2025-07-17 10:56:01 INFO  TestCase_Final:71 - Test Case 4 started.
-2025-07-17 10:56:02 INFO  TestCase_Final:83 - Test Case 4 completed.
-2025-07-17 10:56:02 INFO  TestCase_Final:89 - Test Case 5 started.
-2025-07-17 10:56:26 INFO  TestCase_Final:95 - Test Case 5 completed.
-2025-07-17 10:56:26 INFO  TestCase_Final:101 - Test Case 6 started.
-2025-07-17 10:56:27 INFO  TestCase_Final:106 - Test Case 6 completed.
-2025-07-17 10:56:27 INFO  TestCase_Final:112 - Test Case 7 started.
-2025-07-17 10:56:27 INFO  TestCase_Final:117 - Test Case 7 completed.
-2025-07-17 10:56:27 INFO  TestCase_Final:123 - Test Case 8 started.
-2025-07-17 10:56:28 INFO  TestCase_Final:128 - Test Case 8 completed.
-2025-07-17 10:56:28 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 10:56:29 INFO  TestCase_Final:161 - Test Case 10 started.
-2025-07-17 10:56:40 INFO  TestCase_Final:183 - Test Case 10 completed.
-2025-07-17 10:56:40 INFO  TestCase_Final:188 - Test Case 11 completed.
-2025-07-17 10:56:50 INFO  TestCase_Final:209 - Test Case 11 completed.
-2025-07-17 10:56:50 INFO  TestCase_Final:210 - ******* Ending the Test Cases  ***********
-2025-07-17 10:56:50 INFO  TestCase_Final:156 - Test Case 9 completed.
-2025-07-17 10:56:50 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 10:56:51 INFO  TestCase_Final:161 - Test Case 10 started.
-2025-07-17 10:56:53 INFO  TestCase_Final:183 - Test Case 10 completed.
-2025-07-17 10:56:53 INFO  TestCase_Final:188 - Test Case 11 completed.
-2025-07-17 10:57:03 INFO  TestCase_Final:209 - Test Case 11 completed.
-2025-07-17 10:57:03 INFO  TestCase_Final:210 - ******* Ending the Test Cases  ***********
-2025-07-17 10:57:03 INFO  TestCase_Final:156 - Test Case 9 completed.
-2025-07-17 11:00:03 INFO  TestCase_Final:26 - ******* Starting the Test Cases  ***********
-2025-07-17 11:00:03 INFO  TestCase_Final:27 - Test Case 1 started.
-2025-07-17 11:00:03 INFO  TestCase_Final:28 - Clicking on the New Bikes Section.
-2025-07-17 11:00:06 INFO  TestCase_Final:33 - Test Case 1 completed.
-2025-07-17 11:00:06 INFO  TestCase_Final:39 - Test Case 2 started.
-2025-07-17 11:00:14 INFO  TestCase_Final:48 - Test Case 2 completed.
-2025-07-17 11:00:14 INFO  TestCase_Final:54 - Test Case 3 started.
-2025-07-17 11:00:23 INFO  TestCase_Final:64 - Test Case 3 completed.
-2025-07-17 11:00:23 INFO  TestCase_Final:70 - Test Case 4 started.
-2025-07-17 11:00:24 INFO  TestCase_Final:82 - Test Case 4 completed.
-2025-07-17 11:00:24 INFO  TestCase_Final:88 - Test Case 5 started.
-2025-07-17 11:00:34 INFO  TestCase_Final:94 - Test Case 5 completed.
-2025-07-17 11:00:34 INFO  TestCase_Final:100 - Test Case 6 started.
-2025-07-17 11:00:35 INFO  TestCase_Final:105 - Test Case 6 completed.
-2025-07-17 11:00:35 INFO  TestCase_Final:111 - Test Case 7 started.
-2025-07-17 11:00:35 INFO  TestCase_Final:116 - Test Case 7 completed.
-2025-07-17 11:00:35 INFO  TestCase_Final:122 - Test Case 8 started.
-2025-07-17 11:00:36 INFO  TestCase_Final:127 - Test Case 8 completed.
-2025-07-17 11:00:36 INFO  TestCase_Final:135 - Test Case 9 started.
-2025-07-17 11:00:38 INFO  TestCase_Final:160 - Test Case 10 started.
-2025-07-17 11:00:50 INFO  TestCase_Final:135 - Test Case 9 started.
-2025-07-17 11:01:57 INFO  TestCase_Final:27 - ******* Starting the Test Cases  ***********
-2025-07-17 11:01:57 INFO  TestCase_Final:28 - Test Case 1 started.
-2025-07-17 11:01:57 INFO  TestCase_Final:29 - Clicking on the New Bikes Section.
-2025-07-17 11:01:58 INFO  TestCase_Final:34 - Test Case 1 completed.
-2025-07-17 11:01:58 INFO  TestCase_Final:40 - Test Case 2 started.
-2025-07-17 11:02:06 INFO  TestCase_Final:49 - Test Case 2 completed.
-2025-07-17 11:02:06 INFO  TestCase_Final:55 - Test Case 3 started.
-2025-07-17 11:02:16 INFO  TestCase_Final:65 - Test Case 3 completed.
-2025-07-17 11:02:16 INFO  TestCase_Final:71 - Test Case 4 started.
-2025-07-17 11:02:17 INFO  TestCase_Final:83 - Test Case 4 completed.
-2025-07-17 11:02:17 INFO  TestCase_Final:89 - Test Case 5 started.
-2025-07-17 11:02:27 INFO  TestCase_Final:95 - Test Case 5 completed.
-2025-07-17 11:02:27 INFO  TestCase_Final:101 - Test Case 6 started.
-2025-07-17 11:02:27 INFO  TestCase_Final:106 - Test Case 6 completed.
-2025-07-17 11:02:27 INFO  TestCase_Final:112 - Test Case 7 started.
-2025-07-17 11:02:28 INFO  TestCase_Final:117 - Test Case 7 completed.
-2025-07-17 11:02:28 INFO  TestCase_Final:123 - Test Case 8 started.
-2025-07-17 11:02:29 INFO  TestCase_Final:128 - Test Case 8 completed.
-2025-07-17 11:02:29 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 11:02:30 INFO  TestCase_Final:161 - Test Case 10 started.
-2025-07-17 11:02:40 INFO  TestCase_Final:183 - Test Case 10 completed.
-2025-07-17 11:02:40 INFO  TestCase_Final:188 - Test Case 11 completed.
-2025-07-17 11:02:50 INFO  TestCase_Final:209 - Test Case 11 completed.
-2025-07-17 11:02:50 INFO  TestCase_Final:210 - ******* Ending the Test Cases  ***********
-2025-07-17 11:02:50 INFO  TestCase_Final:156 - Test Case 9 completed.
-2025-07-17 11:02:50 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 11:02:51 INFO  TestCase_Final:161 - Test Case 10 started.
-2025-07-17 11:03:01 INFO  TestCase_Final:183 - Test Case 10 completed.
-2025-07-17 11:03:01 INFO  TestCase_Final:188 - Test Case 11 completed.
-2025-07-17 11:03:11 INFO  TestCase_Final:209 - Test Case 11 completed.
-2025-07-17 11:03:11 INFO  TestCase_Final:210 - ******* Ending the Test Cases  ***********
-2025-07-17 11:03:11 INFO  TestCase_Final:156 - Test Case 9 completed.
-2025-07-17 11:08:33 INFO  TestCase_Final:27 - ******* Starting the Test Cases  ***********
-2025-07-17 11:08:33 INFO  TestCase_Final:28 - Test Case 1 started.
-2025-07-17 11:08:33 INFO  TestCase_Final:29 - Clicking on the New Bikes Section.
-2025-07-17 11:08:36 INFO  TestCase_Final:34 - Test Case 1 completed.
-2025-07-17 11:08:36 INFO  TestCase_Final:40 - Test Case 2 started.
-2025-07-17 11:08:45 INFO  TestCase_Final:49 - Test Case 2 completed.
-2025-07-17 11:08:45 INFO  TestCase_Final:55 - Test Case 3 started.
-2025-07-17 11:08:55 INFO  TestCase_Final:65 - Test Case 3 completed.
-2025-07-17 11:08:55 INFO  TestCase_Final:71 - Test Case 4 started.
-2025-07-17 11:08:57 INFO  TestCase_Final:83 - Test Case 4 completed.
-2025-07-17 11:08:57 INFO  TestCase_Final:89 - Test Case 5 started.
-2025-07-17 11:09:00 INFO  TestCase_Final:95 - Test Case 5 completed.
-2025-07-17 11:09:00 INFO  TestCase_Final:101 - Test Case 6 started.
-2025-07-17 11:09:01 INFO  TestCase_Final:106 - Test Case 6 completed.
-2025-07-17 11:09:01 INFO  TestCase_Final:112 - Test Case 7 started.
-2025-07-17 11:09:02 INFO  TestCase_Final:117 - Test Case 7 completed.
-2025-07-17 11:09:02 INFO  TestCase_Final:123 - Test Case 8 started.
-2025-07-17 11:09:02 INFO  TestCase_Final:128 - Test Case 8 completed.
-2025-07-17 11:09:03 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 11:09:06 INFO  TestCase_Final:162 - Test Case 10 started.
-2025-07-17 11:09:19 INFO  TestCase_Final:184 - Test Case 10 completed.
-2025-07-17 11:09:19 INFO  TestCase_Final:190 - Test Case 11 completed.
-2025-07-17 11:09:20 INFO  TestCase_Final:211 - Test Case 11 completed.
-2025-07-17 11:09:20 INFO  TestCase_Final:212 - ******* Ending the Test Cases  ***********
-2025-07-17 11:09:20 INFO  TestCase_Final:156 - Test Case 9 completed.
-2025-07-17 11:09:20 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 11:09:24 INFO  TestCase_Final:162 - Test Case 10 started.
-2025-07-17 11:09:25 INFO  TestCase_Final:184 - Test Case 10 completed.
-2025-07-17 11:09:25 INFO  TestCase_Final:190 - Test Case 11 completed.
-2025-07-17 11:09:35 INFO  TestCase_Final:211 - Test Case 11 completed.
-2025-07-17 11:09:35 INFO  TestCase_Final:212 - ******* Ending the Test Cases  ***********
-2025-07-17 11:09:35 INFO  TestCase_Final:156 - Test Case 9 completed.
-2025-07-17 11:10:19 INFO  TestCase_Final:27 - ******* Starting the Test Cases  ***********
-2025-07-17 11:10:19 INFO  TestCase_Final:28 - Test Case 1 started.
-2025-07-17 11:10:19 INFO  TestCase_Final:29 - Clicking on the New Bikes Section.
-2025-07-17 11:10:21 INFO  TestCase_Final:34 - Test Case 1 completed.
-2025-07-17 11:10:21 INFO  TestCase_Final:40 - Test Case 2 started.
-2025-07-17 11:10:31 INFO  TestCase_Final:49 - Test Case 2 completed.
-2025-07-17 11:10:31 INFO  TestCase_Final:55 - Test Case 3 started.
-2025-07-17 11:10:40 INFO  TestCase_Final:65 - Test Case 3 completed.
-2025-07-17 11:10:40 INFO  TestCase_Final:71 - Test Case 4 started.
-2025-07-17 11:10:42 INFO  TestCase_Final:83 - Test Case 4 completed.
-2025-07-17 11:10:42 INFO  TestCase_Final:89 - Test Case 5 started.
-2025-07-17 11:10:59 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 11:11:03 INFO  TestCase_Final:162 - Test Case 10 started.
-2025-07-17 11:11:17 INFO  TestCase_Final:184 - Test Case 10 completed.
-2025-07-17 11:11:17 INFO  TestCase_Final:190 - Test Case 11 completed.
-2025-07-17 11:11:18 INFO  TestCase_Final:211 - Test Case 11 completed.
-2025-07-17 11:11:18 INFO  TestCase_Final:212 - ******* Ending the Test Cases  ***********
-2025-07-17 11:11:18 INFO  TestCase_Final:156 - Test Case 9 completed.
-2025-07-17 11:11:18 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 11:11:22 INFO  TestCase_Final:162 - Test Case 10 started.
-2025-07-17 11:11:23 INFO  TestCase_Final:184 - Test Case 10 completed.
-2025-07-17 11:11:23 INFO  TestCase_Final:190 - Test Case 11 completed.
-2025-07-17 11:11:34 INFO  TestCase_Final:211 - Test Case 11 completed.
-2025-07-17 11:11:34 INFO  TestCase_Final:212 - ******* Ending the Test Cases  ***********
-2025-07-17 11:11:34 INFO  TestCase_Final:156 - Test Case 9 completed.
-2025-07-17 11:13:20 INFO  TestCase_Final:27 - ******* Starting the Test Cases  ***********
-2025-07-17 11:13:20 INFO  TestCase_Final:28 - Test Case 1 started.
-2025-07-17 11:13:20 INFO  TestCase_Final:29 - Clicking on the New Bikes Section.
-2025-07-17 11:13:24 INFO  TestCase_Final:34 - Test Case 1 completed.
-2025-07-17 11:13:24 INFO  TestCase_Final:40 - Test Case 2 started.
-2025-07-17 11:13:33 INFO  TestCase_Final:49 - Test Case 2 completed.
-2025-07-17 11:13:33 INFO  TestCase_Final:55 - Test Case 3 started.
-2025-07-17 11:13:43 INFO  TestCase_Final:65 - Test Case 3 completed.
-2025-07-17 11:13:43 INFO  TestCase_Final:71 - Test Case 4 started.
-2025-07-17 11:13:44 INFO  TestCase_Final:83 - Test Case 4 completed.
-2025-07-17 11:13:44 INFO  TestCase_Final:89 - Test Case 5 started.
-2025-07-17 11:14:00 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 11:14:03 INFO  TestCase_Final:162 - Test Case 10 started.
-2025-07-17 11:14:13 INFO  TestCase_Final:184 - Test Case 10 completed.
-2025-07-17 11:14:13 INFO  TestCase_Final:190 - Test Case 11 completed.
-2025-07-17 11:14:23 INFO  TestCase_Final:211 - Test Case 11 completed.
-2025-07-17 11:14:23 INFO  TestCase_Final:212 - ******* Ending the Test Cases  ***********
-2025-07-17 11:14:23 INFO  TestCase_Final:156 - Test Case 9 completed.
-2025-07-17 11:14:23 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 11:14:27 INFO  TestCase_Final:162 - Test Case 10 started.
-2025-07-17 11:14:29 INFO  TestCase_Final:184 - Test Case 10 completed.
-2025-07-17 11:14:29 INFO  TestCase_Final:190 - Test Case 11 completed.
-2025-07-17 11:14:40 INFO  TestCase_Final:211 - Test Case 11 completed.
-2025-07-17 11:14:40 INFO  TestCase_Final:212 - ******* Ending the Test Cases  ***********
-2025-07-17 11:14:40 INFO  TestCase_Final:156 - Test Case 9 completed.
-2025-07-17 11:15:46 INFO  TestCase_Final:27 - ******* Starting the Test Cases  ***********
-2025-07-17 11:15:46 INFO  TestCase_Final:28 - Test Case 1 started.
-2025-07-17 11:15:46 INFO  TestCase_Final:29 - Clicking on the New Bikes Section.
-2025-07-17 11:15:48 INFO  TestCase_Final:34 - Test Case 1 completed.
-2025-07-17 11:15:48 INFO  TestCase_Final:40 - Test Case 2 started.
-2025-07-17 11:15:58 INFO  TestCase_Final:49 - Test Case 2 completed.
-2025-07-17 11:15:58 INFO  TestCase_Final:55 - Test Case 3 started.
-2025-07-17 11:16:09 INFO  TestCase_Final:65 - Test Case 3 completed.
-2025-07-17 11:16:09 INFO  TestCase_Final:71 - Test Case 4 started.
-2025-07-17 11:16:11 INFO  TestCase_Final:83 - Test Case 4 completed.
-2025-07-17 11:16:11 INFO  TestCase_Final:89 - Test Case 5 started.
-2025-07-17 11:16:27 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 11:16:38 INFO  TestCase_Final:162 - Test Case 10 started.
-2025-07-17 11:16:50 INFO  TestCase_Final:184 - Test Case 10 completed.
-2025-07-17 11:16:50 INFO  TestCase_Final:190 - Test Case 11 completed.
-2025-07-17 11:16:51 INFO  TestCase_Final:211 - Test Case 11 completed.
-2025-07-17 11:16:51 INFO  TestCase_Final:212 - ******* Ending the Test Cases  ***********
-2025-07-17 11:16:51 INFO  TestCase_Final:156 - Test Case 9 completed.
-2025-07-17 11:16:51 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 11:16:56 INFO  TestCase_Final:162 - Test Case 10 started.
-2025-07-17 11:16:57 INFO  TestCase_Final:184 - Test Case 10 completed.
-2025-07-17 11:16:57 INFO  TestCase_Final:190 - Test Case 11 completed.
-2025-07-17 11:17:07 INFO  TestCase_Final:211 - Test Case 11 completed.
-2025-07-17 11:17:07 INFO  TestCase_Final:212 - ******* Ending the Test Cases  ***********
-2025-07-17 11:17:07 INFO  TestCase_Final:156 - Test Case 9 completed.
-2025-07-17 11:20:25 INFO  TestCase_Final:27 - ******* Starting the Test Cases  ***********
-2025-07-17 11:20:25 INFO  TestCase_Final:28 - Test Case 1 started.
-2025-07-17 11:20:25 INFO  TestCase_Final:29 - Clicking on the New Bikes Section.
-2025-07-17 11:20:26 INFO  TestCase_Final:34 - Test Case 1 completed.
-2025-07-17 11:20:26 INFO  TestCase_Final:40 - Test Case 2 started.
-2025-07-17 11:20:34 INFO  TestCase_Final:49 - Test Case 2 completed.
-2025-07-17 11:20:34 INFO  TestCase_Final:55 - Test Case 3 started.
-2025-07-17 11:20:43 INFO  TestCase_Final:65 - Test Case 3 completed.
-2025-07-17 11:20:43 INFO  TestCase_Final:71 - Test Case 4 started.
-2025-07-17 11:20:44 INFO  TestCase_Final:83 - Test Case 4 completed.
-2025-07-17 11:20:44 INFO  TestCase_Final:89 - Test Case 5 started.
-2025-07-17 11:20:54 INFO  TestCase_Final:95 - Test Case 5 completed.
-2025-07-17 11:20:54 INFO  TestCase_Final:101 - Test Case 6 started.
-2025-07-17 11:20:54 INFO  TestCase_Final:106 - Test Case 6 completed.
-2025-07-17 11:20:54 INFO  TestCase_Final:112 - Test Case 7 started.
-2025-07-17 11:20:55 INFO  TestCase_Final:117 - Test Case 7 completed.
-2025-07-17 11:20:55 INFO  TestCase_Final:123 - Test Case 8 started.
-2025-07-17 11:20:56 INFO  TestCase_Final:128 - Test Case 8 completed.
-2025-07-17 11:20:56 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 11:20:57 INFO  TestCase_Final:161 - Test Case 10 started.
-2025-07-17 11:21:09 INFO  TestCase_Final:183 - Test Case 10 completed.
-2025-07-17 11:21:09 INFO  TestCase_Final:189 - Test Case 11 completed.
-2025-07-17 11:21:09 INFO  TestCase_Final:210 - Test Case 11 completed.
-2025-07-17 11:21:09 INFO  TestCase_Final:211 - ******* Ending the Test Cases  ***********
-2025-07-17 11:21:09 INFO  TestCase_Final:156 - Test Case 9 completed.
-2025-07-17 11:21:09 INFO  TestCase_Final:136 - Test Case 9 started.
-2025-07-17 11:21:10 INFO  TestCase_Final:161 - Test Case 10 started.
-2025-07-17 11:21:12 INFO  TestCase_Final:183 - Test Case 10 completed.
-2025-07-17 11:21:12 INFO  TestCase_Final:189 - Test Case 11 completed.
-2025-07-17 11:21:22 INFO  TestCase_Final:210 - Test Case 11 completed.
-2025-07-17 11:21:22 INFO  TestCase_Final:211 - ******* Ending the Test Cases  ***********
-2025-07-17 11:21:22 INFO  TestCase_Final:156 - Test Case 9 completed.
+2025-07-18 09:43:15 INFO  TestCase_Final:27 - ******* Starting the Test Cases  ***********
+2025-07-18 09:43:15 INFO  TestCase_Final:28 - Test Case 1 started.
+2025-07-18 09:43:15 INFO  TestCase_Final:29 - Clicking on the New Bikes Section.
+2025-07-18 09:43:17 INFO  TestCase_Final:34 - Test Case 1 completed.
+2025-07-18 09:43:17 INFO  TestCase_Final:40 - Test Case 2 started.
+2025-07-18 09:43:24 INFO  TestCase_Final:49 - Test Case 2 completed.
+2025-07-18 09:43:24 INFO  TestCase_Final:55 - Test Case 3 started.
+2025-07-18 09:43:34 INFO  TestCase_Final:65 - Test Case 3 completed.
+2025-07-18 09:43:34 INFO  TestCase_Final:71 - Test Case 4 started.
+2025-07-18 09:43:35 INFO  TestCase_Final:83 - Test Case 4 completed.
+2025-07-18 09:43:35 INFO  TestCase_Final:89 - Test Case 5 started.
+2025-07-18 09:43:37 INFO  TestCase_Final:95 - Test Case 5 completed.
+2025-07-18 09:43:37 INFO  TestCase_Final:101 - Test Case 6 started.
+2025-07-18 09:43:37 INFO  TestCase_Final:106 - Test Case 6 completed.
+2025-07-18 09:43:37 INFO  TestCase_Final:112 - Test Case 7 started.
+2025-07-18 09:43:37 INFO  TestCase_Final:117 - Test Case 7 completed.
+2025-07-18 09:43:37 INFO  TestCase_Final:123 - Test Case 8 started.
+2025-07-18 09:43:38 INFO  TestCase_Final:128 - Test Case 8 completed.
+2025-07-18 09:43:38 INFO  TestCase_Final:136 - Test Case 9 started.
+2025-07-18 09:43:39 INFO  TestCase_Final:161 - Test Case 10 started.
+2025-07-18 09:43:49 INFO  TestCase_Final:183 - Test Case 10 completed.
+2025-07-18 09:43:49 INFO  TestCase_Final:189 - Test Case 11 completed.
+2025-07-18 09:43:59 INFO  TestCase_Final:210 - Test Case 11 completed.
+2025-07-18 09:43:59 INFO  TestCase_Final:211 - ******* Ending the Test Cases  ***********
+2025-07-18 09:43:59 INFO  TestCase_Final:156 - Test Case 9 completed.
+2025-07-18 09:43:59 INFO  TestCase_Final:136 - Test Case 9 started.
+2025-07-18 09:44:00 INFO  TestCase_Final:161 - Test Case 10 started.
+2025-07-18 09:44:10 INFO  TestCase_Final:183 - Test Case 10 completed.
+2025-07-18 09:44:10 INFO  TestCase_Final:189 - Test Case 11 completed.
+2025-07-18 09:44:20 INFO  TestCase_Final:210 - Test Case 11 completed.
+2025-07-18 09:44:20 INFO  TestCase_Final:211 - ******* Ending the Test Cases  ***********
+2025-07-18 09:44:20 INFO  TestCase_Final:156 - Test Case 9 completed.
