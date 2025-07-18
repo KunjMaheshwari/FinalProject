@@ -12,6 +12,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="getPopularModels"/>
+          <include name="loginTest" invocation-numbers="0 1"/>
           <include name="clickUsedCar"/>
           <include name="verifyClickCity"/>
           <include name="setUp"/>
