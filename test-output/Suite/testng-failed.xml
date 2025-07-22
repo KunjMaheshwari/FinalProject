@@ -6,16 +6,20 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="windows"/>
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="edge"/>
     <classes>
       <class name="testCase.TestCase_Final">
         <methods>
+          <include name="nav_new_bikes"/>
+          <include name="verify_clicking_AllBikes"/>
           <include name="tearDown"/>
           <include name="getPopularModels"/>
-          <include name="loginTest" invocation-numbers="0 1"/>
+          <include name="loginTest"/>
+          <include name="writeAffordableBikesToExcel"/>
           <include name="clickUsedCar"/>
           <include name="verifyClickCity"/>
           <include name="setUp"/>
+          <include name="scrollAndClickHonda"/>
           <include name="return_ZigWheel"/>
         </methods>
       </class> <!-- testCase.TestCase_Final -->

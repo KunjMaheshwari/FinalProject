@@ -11,35 +11,35 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage {
 
-    public HomePage(WebDriver driver) {
-        super(driver);
-    }
+	public HomePage(WebDriver driver) {
+		super(driver);
+	}
 
-    @FindBy(xpath = "//*[@id='headerNewVNavWrap']/nav/ul/li[3]/a")
-    private WebElement newBike;
+	@FindBy(xpath = "//*[@id='headerNewVNavWrap']/nav/ul/li[3]/a")
+	private WebElement newBike;
 
-    @FindBy(xpath = "//ul[@class='h-d-nav fnt-14 pl-0 txt-c b ']//li[5]")
-    private WebElement moreMenu;
+	@FindBy(xpath = "//ul[@class='h-d-nav fnt-14 pl-0 txt-c b ']//li[5]")
+	private WebElement moreMenu;
 
-    @FindBy(xpath = "//ul[@class='h-d-nav fnt-14 pl-0 txt-c b ']//li[5]/ul/li[1]/a")
-    private WebElement usedCarsLink;
+	@FindBy(xpath = "//ul[@class='h-d-nav fnt-14 pl-0 txt-c b ']//li[5]/ul/li[1]/a")
+	private WebElement usedCarsLink;
 
-    public void clickNewBike() {
-        newBike.click();
-    }
+	public void clickNewBike() {
+		newBike.click();
+	}
 
-    public void hoverOverMoreMenu() {
-        Actions actions = new Actions(driver);
-        actions.moveToElement(moreMenu).perform();
-    }
+	public void hoverOverMoreMenu() {
+		Actions actions = new Actions(driver);
+		actions.moveToElement(moreMenu).perform();
+	}
 
-    public void clickUsedCarsLink() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.elementToBeClickable(usedCarsLink)).click();
-    }
+	public void clickUsedCarsLink() {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.elementToBeClickable(usedCarsLink)).click();
+	}
 
-    public void navigateToUsedCars() {
-        hoverOverMoreMenu();
-        clickUsedCarsLink();
-    }
+	public void navigateToUsedCars() {
+		hoverOverMoreMenu();
+		clickUsedCarsLink();
+	}
 }

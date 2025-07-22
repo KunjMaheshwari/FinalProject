@@ -17,74 +17,72 @@ import org.openqa.selenium.support.FindBy;
  */
 
 public class UpcomingBikesPage extends BasePage {
-	
+
+	// Constructor
 	public UpcomingBikesPage(WebDriver driver) {
 		super(driver);
 	}
 
-    @FindBy(xpath="//a[text()='NEW BIKES']")
-    WebElement NewBikes;
+	// Locators
+	@FindBy(xpath = "//a[text()='NEW BIKES']")
+	WebElement NewBikes;
 
-    @FindBy(xpath="//*[@class='tabbing-list tajax_1']/li[4]")
-    WebElement Upcoming_Bikes;
+	@FindBy(xpath = "//*[@class='tabbing-list tajax_1']/li[4]")
+	WebElement Upcoming_Bikes;
 
-    @FindBy(xpath="//a[@href='href=upcoming-bikes']")
+	@FindBy(xpath = "//a[@href='href=upcoming-bikes']")
+	WebElement All_Upcoming_Bikes;
 
-    WebElement All_Upcoming_Bikes;
+	@FindBy(xpath = "//a[text()='Honda']")
+	WebElement Honda_Bikes;
 
-    @FindBy(xpath="//a[text()='Honda']")
-    WebElement Honda_Bikes;
+	@FindBy(xpath = "//a[@data-track-label='model-name']")
+	List<WebElement> All_Honda_Models;
 
-    @FindBy(xpath="//a[@data-track-label='model-name']")
-    List<WebElement>All_Honda_Models;
+	@FindBy(xpath = "//div[@class='b fnt-15']")
+	List<WebElement> All_Bike_Prices;
 
-    @FindBy(xpath="//div[@class='b fnt-15']")
-    List<WebElement>All_Bike_Prices;
+	@FindBy(xpath = "//div[@class='clr-try fnt-14']")
+	List<WebElement> Expected_Dates;
 
-    @FindBy(xpath="//div[@class='clr-try fnt-14']")
-    List<WebElement>Expected_Dates;
+	// Action Methods
+	public void click_NewBikes() {
+		NewBikes.click();
+	}
 
+	public void click_UpcomingBikes() {
+		Upcoming_Bikes.click();
+	}
 
-    public void click_NewBikes(){
-        NewBikes.click();
-    }
-    
-    public void click_UpcomingBikes() {
-    	Upcoming_Bikes.click();
-    }
-    
-    public void click_All_UpcomingBikes() throws InterruptedException {
-     	//All_Upcoming_Bikes.click();
-    	Thread.sleep(2000);
-        WebElement upcomingTab = driver.findElement(By.xpath("//li[@data-track-label='upcoming-tab']"));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", upcomingTab);
-   
-      Thread.sleep(2000);
-      WebElement element = driver.findElement(By.xpath("//a[@title='All Upcoming Bikes']"));
-      ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
-   
-    	    }
-    
-    public void click_Honda() {
-    	
- 
-        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", Honda_Bikes);
-    }
-    
-    public void Bike_Models(){
-    	for(WebElement bike:All_Honda_Models) {
-    		System.out.println(bike.getText());
-    	}
-    }
-    
-    public void  Lauch_Dates(){
-    	for(WebElement date:Expected_Dates) {
-    		System.out.println(date.getText());
-    	}
-    }
-    
-    public double extract_price(String priceText) {
-    	priceText = priceText.replace("Rs.", "").trim();
+	public void click_All_UpcomingBikes() throws InterruptedException {
+		// All_Upcoming_Bikes.click();
+		Thread.sleep(2000);
+		WebElement upcomingTab = driver.findElement(By.xpath("//li[@data-track-label='upcoming-tab']"));
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", upcomingTab);
+
+		Thread.sleep(2000);
+		WebElement element = driver.findElement(By.xpath("//a[@title='All Upcoming Bikes']"));
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+	}
+
+	public void click_Honda() {
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", Honda_Bikes);
+	}
+
+	public void Bike_Models() {
+		for (WebElement bike : All_Honda_Models) {
+			System.out.println(bike.getText());
+		}
+	}
+
+	public void Lauch_Dates() {
+		for (WebElement date : Expected_Dates) {
+			System.out.println(date.getText());
+		}
+	}
+
+	public double extract_price(String priceText) {
+		priceText = priceText.replace("Rs.", "").trim();
 
 		if (priceText.contains("Lakh")) {
 			priceText = priceText.replace("Lakh", "").trim();
@@ -92,33 +90,33 @@ public class UpcomingBikesPage extends BasePage {
 		} else {
 			return Double.parseDouble(priceText.replace(",", ""));
 		}
-    }
-   
-    public List<String> BikeNames_Under_Price(){
-    	List<String> bikenames = new ArrayList<>();
-    	for(int i=0;i<All_Honda_Models.size();i++) {
-    		double price = extract_price(All_Bike_Prices.get(i).getText());
-    		
-    		if(price < 400000) {
-    			bikenames.add(All_Honda_Models.get(i).getText());
-    		}
-    	}
-    	return bikenames;
-    }
-    
-    public List<String> BikePrices_Under_Price(){
-    	List<String> prices = new ArrayList<>();
-    	for(int i=0;i<All_Bike_Prices.size();i++) {
-    	double price = extract_price(All_Bike_Prices.get(i).getText());
-    		
-    		if(price < 400000) {
-    			prices.add("₹ " + price);
-    		}
-    	}
-    	return prices;
-    	}
-    
-    public List<String> getAffordableBikeLaunchDates() {
+	}
+
+	public List<String> BikeNames_Under_Price() {
+		List<String> bikenames = new ArrayList<>();
+		for (int i = 0; i < All_Honda_Models.size(); i++) {
+			double price = extract_price(All_Bike_Prices.get(i).getText());
+
+			if (price < 400000) {
+				bikenames.add(All_Honda_Models.get(i).getText());
+			}
+		}
+		return bikenames;
+	}
+
+	public List<String> BikePrices_Under_Price() {
+		List<String> prices = new ArrayList<>();
+		for (int i = 0; i < All_Bike_Prices.size(); i++) {
+			double price = extract_price(All_Bike_Prices.get(i).getText());
+
+			if (price < 400000) {
+				prices.add("₹ " + price);
+			}
+		}
+		return prices;
+	}
+
+	public List<String> getAffordableBikeLaunchDates() {
 		List<String> dates = new ArrayList<>();
 		for (int i = 0; i < Expected_Dates.size(); i++) {
 			double price = extract_price(All_Bike_Prices.get(i).getText());
@@ -128,7 +126,5 @@ public class UpcomingBikesPage extends BasePage {
 		}
 		return dates;
 	}
-   
-    }
-   
 
+}

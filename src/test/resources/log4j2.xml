@@ -21,7 +21,8 @@
 			<DefaultRolloverStrategy max="10" />
 		</RollingFile>
 	</Appenders>
-	<Loggers> <!-- Which type of log do you want to generate? could be All, Trace, Debug, Info, Warn, Error, Fatal, Off-->
+	<Loggers> <!-- Which type of log do you want to generate? could be All, Trace, Debug, 
+			Info, Warn, Error, Fatal, Off -->
 		<Root level="INFO">
 			<!-- <AppenderRef ref="Console"/> -->
 			<AppenderRef ref="File" />

@@ -61,7 +61,7 @@ public class BaseClass {
 			case "chrome":
 				ChromeOptions Roptions = new ChromeOptions();
 				Roptions.addArguments("--disable-blink-features=AutomationControlled");
-				Roptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+				Roptions.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
 				Roptions.setExperimentalOption("useAutomationExtension", false);
 				Roptions.addArguments("--disable-notifications"); // Disable notifications
 				capabilities.setBrowserName("chrome");
@@ -72,7 +72,7 @@ public class BaseClass {
 			case "edge":
 				EdgeOptions Eoptions = new EdgeOptions();
 				Eoptions.addArguments("--disable-blink-features=AutomationControlled");
-				Eoptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+				Eoptions.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
 				Eoptions.setExperimentalOption("useAutomationExtension", false);
 				Eoptions.addArguments("--disable-notifications"); // Disable notifications
 				capabilities.setBrowserName("edge");
@@ -124,7 +124,6 @@ public class BaseClass {
 	}
 
 	@AfterClass
-
 	public void tearDown() {
 		driver.quit();
 	}

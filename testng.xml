@@ -8,7 +8,7 @@
 		<parameter name="os" value="windows" />
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="testCase.TestCase_Final"/>
+			<class name="testCase.TestCase_Final" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

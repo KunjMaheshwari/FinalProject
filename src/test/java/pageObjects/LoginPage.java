@@ -14,34 +14,31 @@ import org.openqa.selenium.support.FindBy;
  * 5. Switching back to the main (parent) window.
  */
 
-public class LoginPage extends BasePage{
+public class LoginPage extends BasePage {
 
 	public LoginPage(WebDriver driver) {
 		super(driver);
 	}
-	
-	//locating Elements
 
-	
-	@FindBy(xpath="//*[@type='email']")
+	// locating Elements
+
+	@FindBy(xpath = "//*[@type='email']")
 	WebElement email;
-	
-	@FindBy(xpath="//*[@type='password']")
+
+	@FindBy(xpath = "//*[@type='password']")
 	WebElement password;
-	
-	
-	//Actions
-	
+
+	// Actions
+
 	public void setEmail(String Email) {
 		Actions action = new Actions(driver);
 		email.sendKeys(Email);
 		action.keyDown(Keys.ENTER).keyUp(Keys.ENTER).build().perform();
 	}
-	
+
 	public void setPassword(String Password) {
 		Actions action = new Actions(driver);
 		password.sendKeys(Password);
 		action.keyDown(Keys.ENTER).keyUp(Keys.ENTER).build().perform();
 	}
-	
 }
